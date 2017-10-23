@@ -1,0 +1,25 @@
+﻿//Result of experience and testing different configurations for each dataset
+
+//WheatSeed Dataset
+
+			List<int> hiddenLayersWidth = new List<int>();
+            hiddenLayersWidth.Add(7);
+			hiddenLayersWidth.Add(5);
+			network.EpochsIterations = 1000000;
+			network.Alpha = 0.005;
+			network.UseNeuronBias = false;
+
+
+//IrisFlower Dataset
+			List<int> hiddenLayersWidth = new List<int>();
+            hiddenLayersWidth.Add(3);
+			network.EpochsIterations = 1000000;
+			network.Alpha = 0.005;
+			network.UseNeuronBias = false;
+
+//MathFunc Dataset
+			List<int> hiddenLayersWidth = new List<int>();
+            hiddenLayersWidth.Add(3);
+			network.EpochsIterations = 1000000;
+			network.Alpha = 0.005;
+			network.UseNeuronBias = false;
